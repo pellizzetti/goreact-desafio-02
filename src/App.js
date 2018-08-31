@@ -2,10 +2,8 @@ import React from 'react';
 
 import './styles/global';
 
-const App = () => (
-  <div className="App">
-    <h1>Hello World</h1>
-  </div>
-);
+import Home from './pages/Home';
+
+const App = () => <Home />;
 
 export default App;
