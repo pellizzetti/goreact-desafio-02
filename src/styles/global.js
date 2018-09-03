@@ -7,9 +7,17 @@ injectGlobal`
     box-sizing: border-box;
   }
 
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+
   body {
     background: aliceblue;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', 'Helvetica', sans-serif;
   }
 `;
