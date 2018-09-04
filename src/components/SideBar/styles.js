@@ -1,6 +1,6 @@
 ﻿import styled from 'styled-components';
 
-const Container = styled.div`
+const Container = styled.aside`
   flex-shrink: 0;
   background-color: #eee;
   overflow-x: hidden;

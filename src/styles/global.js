@@ -13,11 +13,16 @@ injectGlobal`
   }
 
   body {
+    font-family: 'Segoe UI', 'Helvetica', sans-serif;
     background: aliceblue;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased;
+  }
+
+  body > div {
     display: flex;
     flex-direction: row;
-    font-family: 'Segoe UI', 'Helvetica', sans-serif;
+    width: 100%;
+    height: 100%;
   }
 `;
