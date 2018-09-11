@@ -19,7 +19,7 @@ injectGlobal`
     -webkit-font-smoothing: antialiased;
   }
 
-  body > div {
+  #root {
     display: flex;
     flex-direction: row;
     width: 100%;
