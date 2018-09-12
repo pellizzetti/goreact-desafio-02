@@ -13,7 +13,7 @@ export const Header = styled.header`
   align-items: center;
   height: 100px;
   padding: 30px;
-  background-color: #FFF;
+  background-color: #fff;
 
   svg {
     width: 1.5em !important;
@@ -45,14 +45,34 @@ export const Header = styled.header`
   }
 
   select {
-    border: 1px solid #DDD;
+    border: 1px solid #ddd;
     padding: 0 15px;
     height: 42px;
     flex-grow: 0.2;
+    border-radius: 5px;
   }
 `;
 
 export const Content = styled(Container)`
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   padding: 20px;
+  overflow: auto;
+
+  > svg {
+    margin: 0 auto;
+  }
+
+  > span {
+    position: relative;
+    top: 50%;
+    color: #777;
+    font-style: italic;
+    margin: 0 auto;
+  }
+`;
+
+export const IssuesList = styled.ul`
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 `;

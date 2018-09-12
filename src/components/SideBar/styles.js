@@ -20,7 +20,7 @@ export const Form = styled.form`
     background-color: #EEE;
     height: 42px;
     border-radius: 5px;
-    border: none;
+    border: ${({ error }) => (error ? '2px solid #e41d1d' : 'none')};;
     width: 210px;
     padding: 15px;
   }
