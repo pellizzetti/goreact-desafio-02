@@ -1,5 +1,7 @@
 import { injectGlobal } from 'styled-components';
 
+import 'react-toastify/dist/ReactToastify.min.css';
+
 injectGlobal`
   * {
     margin: 0;
@@ -14,7 +16,6 @@ injectGlobal`
 
   body {
     font-family: 'Segoe UI', 'Helvetica', sans-serif;
-    background: aliceblue;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased;
   }
